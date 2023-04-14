@@ -22,10 +22,11 @@ html, body {
   
   position:inherit;
   float:left;
-  margin: 50px auto;
   width:500px;
   max-width:50%;
   padding:0;
+  padding-left: 16px;
+  padding-right: 16px;
   
   border:3px solid #00CD00;
 }
