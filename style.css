@@ -8,8 +8,14 @@ html, body {
 }
 
 .wrapper {
-  width:1000px;
-  margin:0 auto;
+  width: 1170px;
+  max-width: 100%;
+  <!-- centering -->
+  margin-left: auto;
+  margin-right: auto;
+  <!-- left- and right-side margin -->
+  padding-left: 16px;
+  padding-right: 16px;
 }
 
 .left, .right {
