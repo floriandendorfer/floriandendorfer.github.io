@@ -28,8 +28,8 @@ max-width: 1140px;
 
 border:3px solid red;
   
-margin:0 auto;
-padding:0px, 5px, 0px, 5px;
+margin:0px, 5px, 0px, 5px;
+padding:0px, 0px, 0px, 0px;
 overflow:auto;
 text-align: center;
 }
@@ -40,7 +40,7 @@ text-align: center;
   width:auto;
   max-width:450px;
   border:3px solid #00CD00;
-  padding::0px, 5px, 0px, 5px;
+  padding::0px, 0px, 0px, 0px;
   <!-- top,right,bottom,left side length -->
-  margin: 0px 0px 50px 0px;
+  margin: 5px 0px 0px 5px;
 }
