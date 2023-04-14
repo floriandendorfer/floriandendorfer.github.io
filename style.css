@@ -33,8 +33,7 @@ text-align: center;
 .left {
   position:inherit;
   float:left;
-  max-width:50%;
-  width:450px;
+  width:auto;
   
   padding: 0;
   <!-- top,right,bottom,left side length -->
@@ -46,8 +45,7 @@ text-align: center;
 .right {
   position:inherit;
   float:right;
-  max-width:50%;
-  width:450px;
+  width:auto;
   
   padding: 0;
   margin: 0px 0px 0px 0px;
