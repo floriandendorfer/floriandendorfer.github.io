@@ -1,6 +1,6 @@
 html, body {
   background-color: #fff;
-  padding:50px;
+  padding:0px;
   font: 14px/1.5;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif;
   color:#595959;
@@ -8,15 +8,14 @@ html, body {
 }
 
 .wrapper {
-  <!-- width: 1170px; -->
-  max-width: 90%;
+  max-width: 1170px;
   
   <!-- centering -->
   margin-left: auto;
   margin-right: auto;
   <!-- left- and right-side margin -->
-  <!-- padding-left: 15px; -->
-  <!-- padding-right: 15px; -->
+  padding-left: 15px;
+  padding-right: 15px;
 }
 
 .center
@@ -59,8 +58,3 @@ text-align: center;
   
   border:3px solid #00CD00;
 }
-
-@media (min-width: 1170px) {
-  .wrapper {
-    max-width: 1170px;
-  }
