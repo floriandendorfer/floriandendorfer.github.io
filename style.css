@@ -7,18 +7,19 @@ html, body {
 }
 
 .wrapper {
-  width:860px;
+  width:1000px;
   margin:0 auto;
 }
 
 .left, .right {
   
-  margin: 5px;
-  max-width: 50%;
-  flex: 1;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
+  position:inherit;
+  float:left;
+  margin: 50px auto;
+  width:auto;
+  max-width:450px;
+  border:3px solid #00CD00;
+  padding:0;
 }
 
 .left {
