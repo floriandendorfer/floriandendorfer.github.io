@@ -9,10 +9,7 @@ html, body {
 
 .wrapper {
   <!-- width: 1170px; -->
-  <!-- max-width: 100%; -->
-  
-  width: 90%;
-  max-width: 1170px;
+  max-width: 90%;
   
   <!-- centering -->
   margin-left: auto;
@@ -42,7 +39,6 @@ text-align: center;
   <!-- width:500px; -->
   <!-- max-width:50%; -->
   width=50%;
-  max-width: 500px;
   
   padding: 0;
   <!-- top,right,bottom,left side length -->
@@ -57,10 +53,14 @@ text-align: center;
   <!-- width:500px; -->
   <!-- max-width:50%; -->
   width=50%;
-  max-width: 500px;
   
   padding: 0;
   margin: -10px 0px 50px 0px;
   
   border:3px solid #00CD00;
 }
+
+@media (min-width: 1170px) {
+  .wrapper {
+    max-width: 1170px;
+  }
