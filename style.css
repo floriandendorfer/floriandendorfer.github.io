@@ -1,19 +1,14 @@
-html, body {
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  height: 100%;
-  margin: 0px;
-  padding: 0px;
+body {
+  background-color: #fff;
+  padding:50px;
+  font: 14px/1.5 -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen, Ubuntu, Cantarell, "Fira Sans", "Droid Sans", "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  color:#595959;
+  font-weight:400;
 }
 
 .wrapper {
-  background-color: lightpink;
-  
-  max-width: 50%;
-  display: flex;
-  flex-direction: row;
-  height: 80%;
+  width:860px;
+  margin:0 auto;
 }
 
 .left, .right {
@@ -30,8 +25,4 @@ html, body {
 .left {
   align-items: center;
   justify-content: center;
-}
-
-.profile-picture {
-  border-radius: 50%;
 }
