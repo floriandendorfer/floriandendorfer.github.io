@@ -9,6 +9,7 @@ html, body {
 
 .wrapper {
   <!-- max-width: 1170px; -->
+  width:auto;
   
   <!-- centering -->
   margin: auto;
@@ -32,11 +33,11 @@ text-align: center;
   position:inherit;
   float:left;
   width:auto;
-  max-width:450px;
+  <!-- max-width:450px; -->
   
   padding: 0;
   <!-- top,right,bottom,left side length -->
-  margin: 20px 0px 0px 0px;
+  margin: 200px 0px 0px 0px;
   
   border:3px solid #00CD00;
 }
@@ -45,7 +46,8 @@ text-align: center;
   position:inherit;
   float:right;
   width:auto;
-  max-width:450px;
+  <!-- max-width:450px; -->
+  width:auto;
   
   padding: 0;
   margin: 0px 0px 0px 0px;
