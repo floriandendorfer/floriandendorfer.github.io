@@ -8,7 +8,12 @@ html, body {
 }
 
 .wrapper {
-  max-width: 500px;
+  
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+  max-width: 1170px;
   
   <!-- centering -->
   margin: 0 auto;
