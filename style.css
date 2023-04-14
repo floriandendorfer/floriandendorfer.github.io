@@ -33,25 +33,31 @@ text-align: center;
 
 .left {
   position:inherit;
-  float:left;
+  float:right;
   width:auto;
   max-width:450px;
-  
-  padding: 0;
-  <!-- top,right,bottom,left side length -->
-  margin: 0px 0px 0px 0px;
-  
   border:3px solid #00CD00;
+  padding:0;
+  <!-- top,right,bottom,left side length -->
+  margin: 0px 0px 50px 0px;
 }
 
 .right {
   position:inherit;
-  float:right;
+  float:left;
+  margin: 0px 0px 50px 0px;
   width:auto;
   max-width:450px;
-  
-  padding: 0;
-  margin: 0px 0px 0px 0px;
-  
   border:3px solid #00CD00;
+  padding:0;
+}
+
+.left h1,
+.right h1
+{
+margin:0;
+padding:0;
+display:block;
+background-color:#00CD00;
+padding: 5px 0;
 }
