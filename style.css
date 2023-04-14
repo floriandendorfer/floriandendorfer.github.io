@@ -8,7 +8,7 @@ html, body {
 }
 
 .wrapper {
-  max-width: 1170px;
+  max-width: 500px;
   
   <!-- centering -->
   margin: 0 auto;
@@ -19,7 +19,7 @@ html, body {
 
 .center
 {
-width: 1140px;
+<!-- width: 1140px; -->
 max-width: 100%;
   
 margin:0 auto;
