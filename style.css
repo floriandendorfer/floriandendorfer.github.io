@@ -8,8 +8,8 @@ html, body {
 }
 
 .wrapper {
-  <!-- max-width: 1170px; -->
-  width=90%
+  width: 1170px;
+  max-width=90%;
   
   <!-- centering -->
   margin: auto;
