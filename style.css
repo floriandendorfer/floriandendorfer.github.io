@@ -19,7 +19,6 @@ html, body {
 }
 
 .left, .right {
-  
   position:inherit;
   float:left;
   width:500px;
@@ -28,9 +27,4 @@ html, body {
   padding-right: 16px;
   
   border:3px solid #00CD00;
-}
-
-.left {
-  align-items: center;
-  justify-content: center;
 }
