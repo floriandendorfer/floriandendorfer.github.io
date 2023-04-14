@@ -8,7 +8,8 @@ html, body {
 }
 
 .wrapper {
-  max-width: 1170px;
+  <!-- max-width: 1170px; -->
+  width=90%
   
   <!-- centering -->
   margin: auto;
@@ -34,7 +35,7 @@ text-align: center;
 .left {
   position:inherit;
   float:left;
-  width:500px;
+  max-width:500px;
   max-width:50%;
   
   padding: 0;
@@ -47,8 +48,8 @@ text-align: center;
 .right {
   position:inherit;
   float:right;
-  width:500px;
-  max-width:50%;
+  max-width:500px;
+  width:50%;
   
   padding: 0;
   margin: -10px 0px 50px 0px;
