@@ -26,8 +26,8 @@ max-width: 1140px;
 
 border:3px solid red;
   
-margin:0px, 5px, 0px, 5px;
-padding:0px, 0px, 0px, 0px;
+margin: 0% 5% 0% 5%;
+padding: 0px, 0px, 0px, 0px;
 overflow:auto;
 text-align: center;
 }
@@ -40,5 +40,5 @@ text-align: center;
   border:3px solid #00CD00;
   padding::0px, 0px, 0px, 0px;
   <!-- top,right,bottom,left side length -->
-  margin: 5px 0px 0px 5px;
+  margin: 0% 5% 0% 5%;
 }
