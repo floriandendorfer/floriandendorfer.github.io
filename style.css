@@ -38,7 +38,7 @@ text-align: center;
   
   padding: 0;
   <!-- top,right,bottom,left side length -->
-  margin: 200px 0px 0px 0px;
+  margin: 0px 0px 0px 0px;
   
   border:3px solid #00CD00;
 }
