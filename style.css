@@ -22,11 +22,12 @@ html, body {
 
 .contentcenter {
   max-width: 1140px;
-  border:3px solid red;
-  margin: 50px auto;
+  margin: 0px, 0px, 0px, 0px;
   padding: 0px, 0px, 0px, 0px;
   overflow:auto;
   text-align: center;
+  
+  border:3px solid red;
 }
 
 .contentleft {
@@ -34,10 +35,11 @@ html, body {
   float:left;
   width: 33%;
   <!-- max-width:450px; -->
-  border:3px solid #00CD00;
   padding:0px, 0px, 0px, 0px;
   <!-- top,right,bottom,left side length -->
-  margin:0px, 10px, 0px, 0px;
+  margin:0px, 20px, 0px, 0px;
+  
+  border:3px solid #00CD00;
 }
 
 .contentright {
@@ -45,8 +47,9 @@ html, body {
   float:left;
   width: 66%;
   <!-- max-width:450px; -->
-  border:3px solid #00CD00;
   padding:0px, 0px, 0px, 0px;
   <!-- top,right,bottom,left side length -->
-  margin:0px, 0px, 0px, 10px;
+  margin:0px, 0px, 0px, 20px;
+  
+  border:3px solid #00CD00;
 }
