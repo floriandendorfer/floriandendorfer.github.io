@@ -12,7 +12,7 @@ html, .body {
   padding-right: 1%;
   padding-left:  1%;
 
-  border:3px solid rgb(51, 0, 255);
+  <!-- border:3px solid rgb(51, 0, 255); -->
 }
 
 .head {
@@ -26,7 +26,7 @@ html, .body {
   padding-bottom: 0px;
   padding-left: 0px;
   
-  border:3px solid red;
+  <!-- border:3px solid red; -->
 }
 
 .contentcenter {
@@ -41,7 +41,7 @@ html, .body {
   padding-left: 0px;
   text-align: center;
   
-  border:3px solid rgb(255, 0, 81);
+  <!-- border:3px solid rgb(255, 0, 81); -->
 }
 
 .contentleft {
@@ -49,15 +49,15 @@ html, .body {
   float:left;
   width: 31%;
   margin-top: 0px;
-  margin-right: 20px;
+  margin-right: 1%;
   margin-bottom: 0px;
   margin-left: 0px;
   padding-top: 0px;
-  padding-right: 1%;
+  padding-right: 0px;
   padding-bottom: 0px;
   padding-left: 0px;
   
-  border:3px solid #00CD00;
+  <!-- border:3px solid #00CD00; -->
 }
 
 .contentright {
@@ -73,5 +73,5 @@ html, .body {
   padding-bottom: 0px;
   padding-left: 0px;
   
-  border:3px solid #00CD00;
+  <!-- border:3px solid #00CD00; -->
 }
