@@ -1,45 +1,61 @@
-html, body {
+html, .body {
   background-color: #fff;
-  padding:50px;
+  
   font: 14px/1.5;
   font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Oxygen-Sans, Ubuntu, Cantarell, "Helvetica Neue",sans-serif;
   color:#595959;
   font-weight:400;
+
+  margin-right: 0;
+  margin-left:  0;
+  width: 1200px;
+  padding-right: 15px;
+  padding-left:  15px;
+
+  border:3px solid rgb(51, 0, 255);
 }
 
-.wrapper {
-  
-  max-width: 1170px;
-  
-  <!-- centering -->
-  
-  margin-left: 0;
-  margin-right: 0;
-  <!-- left- and right-side margin -->
-  padding-left: 15px;
-  padding-right: 15px;
+.head {
+  width: 1200px;
+  margin-top: 50px;
+  margin-right: 0px;
+  margin-bottom: 50px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   
   border:3px solid red;
 }
 
 .contentcenter {
-  max-width: 1140px;
-  margin: 0px, 0px, 0px, 0px;
-  padding: 0px, 0px, 0px, 0px;
-  overflow:auto;
+  max-width: 1200px;
+  margin-top: 50px;
+  margin-right: 15px;
+  margin-bottom: 50px;
+  margin-left: 15px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   text-align: center;
   
-  border:3px solid red;
+  border:3px solid rgb(26, 255, 0);
 }
 
 .contentleft {
   position:static;
   float:left;
-  width: 33%;
-  <!-- max-width:450px; -->
-  padding:0px, 0px, 0px, 0px;
-  <!-- top,right,bottom,left side length -->
-  margin:0px, 20px, 0px, 0px;
+  width: 365px;
+  margin-top: 0px;
+  margin-right: 20px;
+  margin-bottom: 0px;
+  margin-left: 0px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   
   border:3px solid #00CD00;
 }
@@ -47,11 +63,15 @@ html, body {
 .contentright {
   position:static;
   float:left;
-  width: 66%;
-  <!-- max-width:450px; -->
-  padding:0px, 0px, 0px, 0px;
-  <!-- top,right,bottom,left side length -->
-  margin:0px, 0px, 0px, 20px;
+  width: 765px;
+  margin-top: 0px;
+  margin-right: 0px;
+  margin-bottom: 0px;
+  margin-left: 20px;
+  padding-top: 0px;
+  padding-right: 0px;
+  padding-bottom: 0px;
+  padding-left: 0px;
   
   border:3px solid #00CD00;
 }
