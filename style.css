@@ -20,23 +20,31 @@ html, body {
   padding-right: 15px;
 }
 
-.contentcenter
-{
-max-width: 1140px;
-
-border:3px solid red;
-  
-margin: 50px auto;
-padding: 0px, 0px, 0px, 0px;
-overflow:auto;
-text-align: center;
+.contentcenter {
+  max-width: 1140px;
+  border:3px solid red;
+  margin: 50px auto;
+  padding: 0px, 0px, 0px, 0px;
+  overflow:auto;
+  text-align: center;
 }
 
-.contentleft,.contentright {
-  position:inherit;
+.contentleft {
+  position:static;
   float:left;
-  width:auto;
-  max-width:450px;
+  width: 50%;
+  <!-- max-width:450px; -->
+  border:3px solid #00CD00;
+  padding:0px, 0px, 0px, 0px;
+  <!-- top,right,bottom,left side length -->
+  margin: 50px auto;
+}
+
+.contentright {
+  position:static;
+  float:left;
+  width: 50%;
+  <!-- max-width:450px; -->
   border:3px solid #00CD00;
   padding:0px, 0px, 0px, 0px;
   <!-- top,right,bottom,left side length -->
