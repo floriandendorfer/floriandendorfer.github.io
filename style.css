@@ -47,7 +47,7 @@ html, .body {
 .contentleft {
   position:static;
   float:left;
-  width: 31%;
+  width: 32%;
   margin-top: 0px;
   margin-right: 1%;
   margin-bottom: 0px;
@@ -139,3 +139,14 @@ html, .body {
 }
 
 .tab { margin-left: 40px; }
+
+details {
+  font-weight: normal;
+  text-align: justify;
+}
+
+summary {
+  cursor: pointer;
+  display: inline;
+  font-weight: normal
+}
