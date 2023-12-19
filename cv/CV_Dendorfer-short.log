@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.6.12)  25 JUL 2023 18:12
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.5) (preloaded format=pdflatex 2023.8.17)  6 DEC 2023 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -453,12 +453,12 @@ Underfull \hbox (badness 10000) in paragraph at lines 25--28
 
 {C:/Users/flori/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 LaTeX Font Info:    Trying to load font information for T1+cmss on input line 7
-3.
+4.
 
 (C:\Program Files\MiKTeX\tex/latex/base\t1cmss.fd
 File: t1cmss.fd 2022/07/10 v2.5l Standard LaTeX font definitions
 )
-Underfull \hbox (badness 10000) in paragraph at lines 76--95
+Underfull \hbox (badness 10000) in paragraph at lines 77--96
 
  []
 
@@ -469,7 +469,7 @@ Package rerunfilecheck Info: File `CV_Dendorfer-short.out' has not changed.
 Here is how much of TeX's memory you used:
  11994 strings out of 476411
  188879 string characters out of 5798949
- 1869845 words of memory out of 5000000
+ 1870845 words of memory out of 5000000
  32193 multiletter control sequences out of 15000+600000
  525057 words of font info for 61 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
@@ -482,9 +482,9 @@ pen/ec/dpi600\ecxc1440.pk> <C:\Users\flori\AppData\Local\MiKTeX\fonts/pk/ljfour
 /jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\flori\AppData\Local\MiKTeX\fonts/pk/
 ljfour/jknappen/ec/dpi600\eccc1200.pk> <C:\Users\flori\AppData\Local\MiKTeX\fon
 ts/pk/ljfour/jknappen/ec/dpi600\ecxc1728.pk>
-Output written on CV_Dendorfer-short.pdf (2 pages, 61168 bytes).
+Output written on CV_Dendorfer-short.pdf (2 pages, 60579 bytes).
 PDF statistics:
- 206 PDF objects out of 1000 (max. 8388607)
+ 205 PDF objects out of 1000 (max. 8388607)
  14 named destinations out of 1000 (max. 500000)
  1 words of extra memory for PDF output out of 10000 (max. 10000000)
 
